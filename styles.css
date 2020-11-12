@@ -1,0 +1,35 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{font-family: sans-serif;font-size: 15px;}
+
+.nav{
+    background-color: rgba(35, 35, 35,.9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+}
+.nav ul li{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.li-w{
+    border-bottom: 2px solid rgb(27, 136, 187);
+}
+.container{
+    width: 50%;
+    margin: 10px auto;
+}
+.post-w{
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 5px 7px #21cc99;
+    margin-bottom: 15px;
+}
